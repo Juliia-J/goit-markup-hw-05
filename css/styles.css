@@ -497,7 +497,8 @@ body {
   border-radius: 4px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1), transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio:hover,
@@ -515,16 +516,16 @@ body {
 }
 
 .flex-element {
-    box-sizing: border-box;
+  box-sizing: border-box;
   width: 370px;
   background-color: var(--font-bkg-header-color);
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-box-shadow: 0;
+  box-shadow: 0;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-element:nth-child(3n) {
@@ -540,7 +541,6 @@ box-shadow: 0;
   border: 1px solid var(--accent-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
 
 .overley {
@@ -550,30 +550,27 @@ box-shadow: 0;
 
 .overley-text {
   position: absolute;
-  top:0 ;
-  left:0 ;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color:rgba(33, 150, 243, 0.9);;
+  background-color: rgba(33, 150, 243, 0.9);
 
-
-transform: translateY(100%);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-element:hover .overley-text {
   transform: translateY(0);
-
 }
-.text{
-padding: 63px 24px;
+.text {
+  padding: 63px 24px;
 
   font-size: 18px;
-line-height: 1.56;
-letter-spacing: 0.03em;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
 
-color: var(--text-white);
+  color: var(--text-white);
 }
 
 .image-title {
@@ -585,10 +582,9 @@ color: var(--text-white);
   letter-spacing: 0.06em;
 
   color: var(--primary-text-color);
-text-decoration: none;
+  text-decoration: none;
 
-transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .image-title:hover,
 .image-title:focus {
@@ -600,7 +596,7 @@ transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 24px;
   font-size: 16px;
   line-height: 30px;
-text-decoration:none;
+  text-decoration: none;
   color: var(--title-text-color);
 
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -696,7 +692,6 @@ text-decoration:none;
   color: var(--text-white);
 
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .logo-footer:hover,
