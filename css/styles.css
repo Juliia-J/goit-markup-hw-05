@@ -337,6 +337,7 @@ body {
   background-position: center;
   background-color: var(--secondery-bkg-color);
   margin-bottom: 55px;
+  padding: 30px 0;
 }
 
 .skils-item:nth-child(1)::before {
@@ -394,6 +395,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
+  text-transform: uppercase;
   text-align: center;
   color: var(--text-white);
   background-color: rgba(47, 48, 58, 0.8);
@@ -430,6 +432,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  background-color: var(--font-bkg-white-color);
 }
 .command-text {
   margin-top: 10px;
@@ -438,6 +441,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  background-color: var(--font-bkg-white-color);
 }
 
 .soc-list {
