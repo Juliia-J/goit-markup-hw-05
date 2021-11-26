@@ -51,7 +51,7 @@
     <section class="hero">
         <div class="container hero-container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
         </div>
     </section>
 
@@ -88,12 +88,21 @@
     <ul class="works-img list">
         <li class="works-item">
           <div class="work-overlay"><img class="image" src="./images1/img1.jpg" alt="Руки на клавиатуре" width="370">
-            <div class="work-overlay-text"><span>Десктопные приложения</span></div>
+            <p class="work-overlay-text">Десктопные приложения</p>
           </div>
         </li>
           
-        <li class="works-item"><img class="image" src="./images1/img2.jpg" alt="Работа с ноутбуком и телефоном" width="370"></li>
-        <li class="works-item"><img class="image" src="./images1/img3.jpg" alt="Работа с планшетом" width="370"></li>
+        <li class="works-item">
+          <div class="work-overlay"><img class="image" src="./images1/img2.jpg" alt="Работа с ноутбуком и телефоном" width="370">
+            <p class="work-overlay-text">Мобильные приложения</p>
+          </div>
+        </li>
+
+        <li class="works-item">
+          <div class="work-overlay"><img class="image" src="./images1/img3.jpg" alt="Работа с планшетом" width="370">
+            <p class="work-overlay-text">Дизайнерские решения</p>
+          </div>
+        </li>
     </ul>
     </div>
 </section>
@@ -358,5 +367,20 @@
 </section>
 
   </footer>
+
+<!-- Модальное окно -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icon" width="18" height="18">
+        <use href="./icon/sprite.svg#icon-close">
+        </use>
+      </svg>
+
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
